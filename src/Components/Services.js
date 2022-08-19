@@ -13,7 +13,7 @@ const Services = () => {
         </div>
         {Data.map((service, key) => {
           return (
-            <div className="col-sm-12 col-md-6 col-lg-3  ">
+            <div className="col-sm-12 col-md-6 col-lg-3 service-card  ">
               <Card {...service}></Card>
             </div>
           );

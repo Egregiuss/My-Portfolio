@@ -5,14 +5,15 @@ import {
   AiOutlineTwitter,
   AiOutlineGithub,
 } from "react-icons/ai";
+import cartoon from "../images/Cartoonify.svg";
 const Hero = () => {
   return (
-    <section className=" container mt-5" id="home">
+    <section className=" container mt-5 " id="home">
       <div
-        className=" hero row  justify-content-between m-5"
+        className=" hero row   justify-content-between "
         data-aos="fade-down"
       >
-        <div className="col-lg-6 col-md-6 col-sm-12 w-25 ">
+        <div className="col-lg-4 col-md-6 col-sm-12 w-25  ">
           <h1 className="name display-1">Ayobami Olaniyi</h1>
           <hr className="underline w-50" />
           <div className="social-media-links   d-inline-flex mb-5">
@@ -39,7 +40,11 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 story ">
+
+        <div className="col-lg-2 d-none d-md-none d-xl-block d-sm-none  d-xs-none  ">
+          <img src={cartoon} alt="toon" className="hero-image" />
+        </div>
+        <div className="col-lg-5 col-md-6 col-sm-12 story ">
           <h3 className="mb-3">Junior Full-Stack Developer</h3>
 
           <p className=" sub-story ">

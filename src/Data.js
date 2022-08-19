@@ -20,16 +20,21 @@ export const Project = [
   {
     id: 1,
     image: "./images/wer.png",
-    title: "Project",
+    title: "Mobile Auto Mechanic",
   },
   {
     id: 2,
-    image: "./images/Weather-App.jpg",
-    title: "Project",
+    image: "./images/shopping-cart.jpg",
+    title: "Shopping Cart",
   },
   {
     id: 3,
     image: "./images/Weather-App.jpg",
     title: "Weather App",
+  },
+  {
+    id: 4,
+    image: "./images/color-generator.jpg",
+    title: "Color Generator",
   },
 ];
