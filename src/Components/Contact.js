@@ -11,12 +11,7 @@ import {
 
 const Contact = () => {
   return (
-    <section
-      className="container mt-5 px-5  "
-      id="contact"
-      data-aos="fade-down"
-      data-aos-delay="500"
-    >
+    <section className="container mt-5 px-5  " id="contact">
       <div className=" row d-flex  mx-5  ">
         <div className="col-md-4 col-sm-12 col-lg-4 contact-left ">
           <h3>Got A Project?</h3>

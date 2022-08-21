@@ -11,12 +11,7 @@ const About = () => {
 
   const [readMore, setReadMore] = useState(false);
   return (
-    <section
-      className="container-fluid  About"
-      id="about"
-      data-aos="fade-down"
-      data-aos-delay="500"
-    >
+    <section className="container-fluid  About" id="about">
       <div className="  d-flex justify-content-center  ">
         <div className="">
           <h2> About Me</h2>
