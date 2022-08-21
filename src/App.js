@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -11,8 +10,6 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 
 function App() {
-  const [black, setBlack] = useState(true);
-
   AOS.init();
 
   return (

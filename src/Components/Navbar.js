@@ -1,5 +1,5 @@
 import Brand from "../images/BRAND.png";
-import { BsArrowBarDown } from "react-icons/bs";
+
 export const Navbar = () => {
   return (
     <>

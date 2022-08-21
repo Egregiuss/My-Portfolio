@@ -8,6 +8,7 @@
   /* color: white; */
   word-wrap: normal;
 }
+
 html,
 body {
   margin: 0;
@@ -36,9 +37,6 @@ body {
 
 .name {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.sub-story {
 }
 
 .btn {

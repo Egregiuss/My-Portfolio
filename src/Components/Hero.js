@@ -13,7 +13,11 @@ const Hero = () => {
         className=" hero row   justify-content-between "
         data-aos="fade-down"
       >
-        <div className="col-lg-4 col-md-6 col-sm-12 w-25  ">
+        <div
+          className="col-lg-4 col-md-6 col-sm-12 w-25 "
+          data-aos="fade-down"
+          data-aos-delay="500"
+        >
           <h1 className="name display-1">Ayobami Olaniyi</h1>
           <hr className="underline w-50" />
           <div className="social-media-links   d-inline-flex mb-5">

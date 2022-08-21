@@ -11,7 +11,12 @@ const About = () => {
 
   const [readMore, setReadMore] = useState(false);
   return (
-    <section className="container-fluid  About" id="about">
+    <section
+      className="container-fluid  About"
+      id="about"
+      data-aos="fade-down"
+      data-aos-delay="500"
+    >
       <div className="  d-flex justify-content-center  ">
         <div className="">
           <h2> About Me</h2>
@@ -19,7 +24,7 @@ const About = () => {
         </div>
       </div>
       <div className=" container row d-flex justify-content-around ">
-        <div className="col-sm-12 col-md-5 col-lg-6 w-25 d-flex justify-content-center mx-5 mb-5  ">
+        <div className="col-sm-12 col-md-5 col-lg-6 w-25 d-flex justify-content-center mx-5 mb-5 ">
           <img src={Niyi} alt="my-image" className="my-image " />
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 w-70 mt-3">
