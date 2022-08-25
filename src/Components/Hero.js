@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { BsArrowBarDown } from "react-icons/bs";
 import {
   AiOutlineLinkedin,
@@ -6,7 +6,14 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 import cartoon from "../images/Cartoonify.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Hero = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section className=" container mt-5 " id="home">
       <div

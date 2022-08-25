@@ -1,26 +1,35 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { useState, useEffect } from "react";
+import { Home } from "./Home";
+import Brand from "./images/BRAND.png";
 
-import { Navbar } from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Services from "./Components/Services";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-
+const url = "https://course-api.com/react-tabs-project";
 function App() {
-  AOS.init();
+  const [loading, setLoading] = useState(true);
+  const [portfolio, setPortfolio] = useState([]);
+
+  const fetchPortfolio = async () => {
+    const reponse = await fetch(url);
+    const newWeb = await reponse.json();
+    setPortfolio(newWeb);
+    setLoading();
+  };
+  useEffect(() => {
+    fetchPortfolio();
+  }, []);
+  if (loading) {
+    return (
+      <section className="loader">
+        <div className="  pt-5 d-flex justify-content-center ">
+          {" "}
+          <img src={Brand} alt="loading" />
+        </div>
+      </section>
+    );
+  }
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Services />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      <Home />
     </>
   );
 }

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Project } from "../Data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
   const [people, setPeople] = useState(Project);
@@ -21,6 +23,10 @@ const Projects = () => {
     }, 3000);
     return () => clearInterval(slider);
   }, [index]);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section className=" row section d-flex  " id="projects">
       <div className="col-lg-3 col-md-6 col-sm-12 project-header">
