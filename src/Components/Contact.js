@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         <div className="divider col-md-2  col-lg-2 d-none d-md-block d-xl-block d-sm-none  d-xs-none  "></div>
 
-        <div className="col-md-6 col-sm-12 col-lg-6 mt-2 list-icon ">
+        <div className="col-md-6 col-sm-12 col-lg-6 mt-2 list-icon  ">
           <p>
             {" "}
             <span className="contact-icons">
