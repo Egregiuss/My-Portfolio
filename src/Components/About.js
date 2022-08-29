@@ -11,33 +11,35 @@ const About = () => {
 
   const [readMore, setReadMore] = useState(false);
   return (
-    <section className="container-fluid  About" id="about">
-      <div className="  d-flex justify-content-center  ">
-        <div className="">
-          <h2> About Me</h2>
-          <hr className="underline w-75 mx-3" />
+    <section className=" About" id="about">
+      <section className="container">
+        <div className="  d-flex justify-content-center  ">
+          <div className="">
+            <h2> About Me</h2>
+            <hr className="underline w-75 mx-3" />
+          </div>
         </div>
-      </div>
-      <div className=" container row d-flex justify-content-around ">
-        <div className="col-sm-12 col-md-5 col-lg-6 w-25 d-flex justify-content-center mx-5 mb-5 ">
-          <img src={Niyi} alt="my-image" className="my-image " />
+        <div className=" container row d-flex justify-content-around ">
+          <div className="col-sm-12 col-md-5 col-lg-6 w-25 d-flex justify-content-center mx-5 mb-5 ">
+            <img src={Niyi} alt="my-image" className="my-image " />
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-6 w-70 mt-3">
+            <p className="about-story">
+              {readMore ? info : `${info.substring(0, 150)} ...`}
+              <button
+                className="about-btn"
+                onClick={() => setReadMore(!readMore)}
+              >
+                {readMore ? "Show Less" : "Show More"}{" "}
+              </button>
+            </p>
+            <h3>Tech Stacks:</h3>{" "}
+            <span className="tech-stack ">
+              <SiCss3 /> <SiJavascript /> <SiReact /> <AiOutlineConsoleSql />
+            </span>
+          </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-6 w-70 mt-3">
-          <p className="about-story">
-            {readMore ? info : `${info.substring(0, 150)} ...`}
-            <button
-              className="about-btn"
-              onClick={() => setReadMore(!readMore)}
-            >
-              {readMore ? "Show Less" : "Show More"}{" "}
-            </button>
-          </p>
-          <h3>Tech Stacks:</h3>{" "}
-          <span className="tech-stack ">
-            <SiCss3 /> <SiJavascript /> <SiReact /> <AiOutlineConsoleSql />
-          </span>
-        </div>
-      </div>
+      </section>
     </section>
   );
 };

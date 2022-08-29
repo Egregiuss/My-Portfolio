@@ -1,18 +1,18 @@
 export const Data = [
   {
-    name: "Web Dev.",
+    name: "Front-End Web Development",
     icon: "./images/icon2.svg",
-    content: "Breakdowns are unpredictable, and can happen anywhere any time.",
+    content: "",
   },
   {
-    name: "Product Design",
+    name: "Back-End Web Development",
     icon: "./images/icon2.svg",
-    content: "Breakdowns are unpredictable, and can happen anywhere any time.",
+    content: "",
   },
   {
-    name: "Full Stack Dev.",
+    name: "Full-Stack Development",
     icon: "./images/icon2.svg",
-    content: "Breakdowns are unpredictable, and can happen anywhere any time.",
+    content: "",
   },
 ];
 

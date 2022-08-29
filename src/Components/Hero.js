@@ -56,13 +56,13 @@ const Hero = () => {
           <img src={cartoon} alt="toon" className="hero-image" />
         </div>
         <div className="col-lg-5 col-md-6 col-sm-12 story ">
-          <h3 className="mb-3">Junior Full-Stack Developer</h3>
+          <h3 className="mb-3"> Full-Stack Developer</h3>
 
           <p className=" sub-story ">
-            The href attribute requires a valid value to be accessible. Provide
-            a valid, navigable address as the href value. If you cannot provide
-            a valid href, but still need the element to resemble a link
+            Hi, I am software engineer specialized in both front-end and
+            back-end web development.
           </p>
+          <p>Please take a look around!</p>
 
           <a
             href="https://drive.google.com/file/d/1tqTlcft2JmpSJ9khK7quOtEcTFNdiy-8/view?usp=sharing"
