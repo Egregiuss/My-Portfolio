@@ -59,7 +59,7 @@ const Hero = () => {
           <h3 className="mb-3"> Full-Stack Developer</h3>
 
           <p className=" sub-story ">
-            Hi, I am software engineer specialized in both front-end and
+            Hi, I am Software Developer specialized in both front-end and
             back-end web development.
           </p>
           <p>Please take a look around!</p>
