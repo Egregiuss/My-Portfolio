@@ -1,3 +1,3 @@
-# John Smilga's React Project
+# My Portfolio 
 
-## Project 09 - Color Generator
+
