@@ -117,8 +117,8 @@ a:hover {
 
 .my-image {
   margin-bottom: 1rem;
-  width: 250px;
-  height: 300px;
+  width: 350px;
+  height: 400px;
   object-fit: fill;
   border: 2px solid #252734;
   box-shadow: var(--dark-shadow);

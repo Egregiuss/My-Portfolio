@@ -65,7 +65,7 @@ const Hero = () => {
           <p>Please take a look around!</p>
 
           <a
-            href="https://drive.google.com/file/d/1tqTlcft2JmpSJ9khK7quOtEcTFNdiy-8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Vrkx290vZzV7XshfZrCwhZdhgn07DNzc/view?usp=share_link"
             target="_blank"
           >
             {" "}

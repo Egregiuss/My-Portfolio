@@ -12,7 +12,7 @@ const Card = (props) => {
           <p className="card-text  ">{content}</p>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 

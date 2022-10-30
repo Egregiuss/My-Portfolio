@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Niyi from "../images/niyi.png";
+import Niyi from "../images/niyi.jpg";
 import { SiJavascript, SiReact, SiCss3 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 
@@ -14,7 +14,7 @@ const About = () => {
     <section className=" About" id="about">
       <section className="container">
         <div className="  d-flex justify-content-center  ">
-          <div className="">
+          <div className=" m-2 ">
             <h2> About Me</h2>
             <hr className="underline w-75 mx-3" />
           </div>
