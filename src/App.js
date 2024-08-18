@@ -12,7 +12,7 @@ function App() {
     const reponse = await fetch(url);
     const newWeb = await reponse.json();
     setPortfolio(newWeb);
-    setLoading();
+    setLoading(false);
   };
   useEffect(() => {
     fetchPortfolio();
