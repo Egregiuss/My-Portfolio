@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Home } from "./Home";
 import Brand from "./images/BRAND.png";
 
-const url = "https://course-api.com/react-tabs-project";
+const url = "https://google.com";
 function App() {
   const [loading, setLoading] = useState(true);
   const [portfolio, setPortfolio] = useState([]);
